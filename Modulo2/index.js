@@ -9,18 +9,18 @@ function show(x, y, z, v){
 }
 function sum(x, y){
     let res = x + y;
-    return "O resultado de " + x + " + " + y + " é " + res + ".";
+    return "Soma entre " + x + " e " + y + ", " + res;
 }
 function sub(x, y){
     let res = x - y;
-    return "O resultado de " + x + " - " + y + " é " + res + ".";
+    return "Subtração entre " + x + " e " + y + ", " + res;
 }
 function mul(x, y){
     let res = x * y;
-    return "O resultado de " + x + " * " + y + " é " + res + ".";
+    return "Multiplicação entre " + x + " e " + y + ", " + res;
 }
 function div(x, y){
     let res = x / y;
-    return "O resultado de " + x + " / " + y + " é " + res + ".";
+    return "Divisão entre " + x + " e " + y + ", " + res;
 }
 show(sum(x, y), sub(x, y), mul(x, y), div(x, y));
