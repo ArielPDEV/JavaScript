@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <style>
+        html {
+            font-size: 20px;
+        }
+        .titulo {
+            font-size: 48px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border-color: black;
+            border-style: dashed;
+            color: red;
+            font-style: oblique;
+            background-color: yellow;
+        }
+        #button-add {
+            color: red;
+            background-color: yellow;
+        }
+        #input-add {
+            color: black;
+            background-color: yellow;
+        }
+        ul {
+            list-style-type: none;
+            border-style: dotted;
+            border-color: black;
+            border-radius: 1px;
+            background-color: rgb(215, 215, 235);
+        }
+        .item-da-lista {
+            text-align: center;
+            display: flex;
+            padding: 0px;
+        }
+        .click {
+            color: green;
+        }
+        .nclick {
+            color: red;
+        }
+    </style>
+    <script src="index.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Lista de tarefas</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" id="input-add">
+            <button onclick="criarLi()" id="button-add">Add</button>
+        </section>
+        <section>
+            <ul id="lista-check">
+                <p></p>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
